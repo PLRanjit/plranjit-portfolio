@@ -1,2 +1,22 @@
 # plranjit-portfolio
-My personal portfolio website showcasing my journey, projects, and technical expertise in software engineering
+
+Personal portfolio website for **Ranjit Prajapati** — Senior Full Stack Engineer with 10+ years of experience in enterprise fintech, global banking, and cloud-native systems.
+
+## Live Site
+[plranjit.github.io](https://plranjit.github.io/)
+
+## Highlights
+- **Current Role:** Senior Full Stack Engineer at J.P. Morgan Chase & Co.
+- **Expertise:** Java, Spring Boot, React, AWS, Kafka, Kubernetes, Microservices, AI Agentic Solutions
+- **Domain:** Trade operations, payment systems, digital onboarding, regulatory compliance
+
+## Sections
+- **About** — Professional summary and career overview
+- **Skills** — Full technical stack across backend, frontend, cloud, data, AI, and ops
+- **Experience** — Roles at J.P. Morgan, Oracle Financial Services, ISS, Xebia, and Atos
+- **Certifications** — AWS and other professional certifications
+- **Achievements** — 66% efficiency gain, 97% automation, 10M+ record migrations
+- **Contact** — Email, LinkedIn, and GitHub
+
+## Tech Stack
+Built with plain HTML, Tailwind CSS (CDN), and vanilla JavaScript. No build tools required — single-file deployment.
