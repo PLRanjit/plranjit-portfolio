@@ -3,7 +3,7 @@
 Personal portfolio website for **Ranjit Prajapati** — Senior Full Stack Engineer with 10+ years of experience in enterprise fintech, global banking, and cloud-native systems.
 
 ## Live Site
-[plranjit.github.io](https://plranjit.github.io/)
+[Website](https://plranjit.github.io/plranjit-portfolio/)
 
 ## Highlights
 - **Current Role:** Senior Full Stack Engineer at J.P. Morgan Chase & Co.
