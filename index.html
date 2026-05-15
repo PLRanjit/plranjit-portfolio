@@ -23,6 +23,7 @@
             }
         }
     </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
         
@@ -174,6 +175,28 @@
             pointer-events: auto;
             transform: translateY(0);
         }
+
+        .abbr-badge {
+            font-size: 0.55rem;
+            font-weight: 800;
+            font-family: ui-monospace, 'Cascadia Code', monospace;
+            background: rgba(96, 165, 250, 0.12);
+            color: #60a5fa;
+            border-radius: 4px;
+            padding: 1px 4px;
+            margin-right: 5px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            border: 1px solid rgba(96, 165, 250, 0.22);
+            line-height: 1;
+            display: inline-flex;
+            align-items: center;
+        }
+        html:not(.dark) .abbr-badge {
+            background: rgba(37, 99, 235, 0.07);
+            color: #2563eb;
+            border-color: rgba(37, 99, 235, 0.18);
+        }
     </style>
 </head>
 <body class="theme-transition bg-slate-50 text-slate-900 dark:bg-dark dark:text-slate-200">
@@ -321,14 +344,14 @@
                     </div>
                     <h3 class="text-lg font-bold mb-6">Backend & Architecture</h3>
                     <div class="flex flex-wrap gap-2">
-                        <div class="skill-tag">Java</div>
-                        <div class="skill-tag">Spring Boot</div>
-                        <div class="skill-tag">Spring Batch</div>
-                        <div class="skill-tag">Spring Data JPA</div>
-                        <div class="skill-tag">Hibernate</div>
-                        <div class="skill-tag">Microservices</div>
-                        <div class="skill-tag">Distributed Systems</div>
-                        <div class="skill-tag">Event-Driven Arch</div>
+                        <div class="skill-tag"><i class="devicon-java-plain colored text-base mr-1"></i>Java</div>
+                        <div class="skill-tag"><i class="devicon-spring-plain colored text-base mr-1"></i>Spring Boot</div>
+                        <div class="skill-tag"><i class="devicon-spring-plain colored text-base mr-1"></i>Spring Batch</div>
+                        <div class="skill-tag"><i class="devicon-spring-plain colored text-base mr-1"></i>Spring Data JPA</div>
+                        <div class="skill-tag"><i class="devicon-hibernate-plain colored text-base mr-1"></i>Hibernate</div>
+                        <div class="skill-tag"><span class="abbr-badge">MS</span>Microservices</div>
+                        <div class="skill-tag"><span class="abbr-badge">DS</span>Distributed Systems</div>
+                        <div class="skill-tag"><span class="abbr-badge">EDA</span>Event-Driven Arch</div>
                     </div>
                 </div>
                 <!-- Frontend & UI -->
@@ -338,12 +361,12 @@
                     </div>
                     <h3 class="text-lg font-bold mb-6">Frontend & UI</h3>
                     <div class="flex flex-wrap gap-2">
-                        <div class="skill-tag">React.js</div>
-                        <div class="skill-tag">React Hooks</div>
-                        <div class="skill-tag">REST Integration</div>
-                        <div class="skill-tag">Redux Toolkit</div>
-                        <div class="skill-tag">Vite</div>
-                        <div class="skill-tag">Tailwind CSS</div>
+                        <div class="skill-tag"><i class="devicon-react-original colored text-base mr-1"></i>React.js</div>
+                        <div class="skill-tag"><i class="devicon-react-original colored text-base mr-1"></i>React Hooks</div>
+                        <div class="skill-tag"><span class="abbr-badge">REST</span>REST Integration</div>
+                        <div class="skill-tag"><i class="devicon-redux-original colored text-base mr-1"></i>Redux Toolkit</div>
+                        <div class="skill-tag"><i class="devicon-vitejs-plain colored text-base mr-1"></i>Vite</div>
+                        <div class="skill-tag"><i class="devicon-tailwindcss-original colored text-base mr-1"></i>Tailwind CSS</div>
                     </div>
                 </div>
                 <!-- Cloud & Containerization -->
@@ -353,11 +376,11 @@
                     </div>
                     <h3 class="text-lg font-bold mb-6">Cloud & Containers</h3>
                     <div class="flex flex-wrap gap-2">
-                        <div class="skill-tag">AWS Cloud</div>
-                        <div class="skill-tag">Docker</div>
-                        <div class="skill-tag">Kubernetes</div>
-                        <div class="skill-tag">CI/CD Pipelines</div>
-                        <div class="skill-tag">Git</div>
+                        <div class="skill-tag"><i class="devicon-amazonwebservices-plain-wordmark colored text-base mr-1"></i>AWS Cloud</div>
+                        <div class="skill-tag"><i class="devicon-docker-plain colored text-base mr-1"></i>Docker</div>
+                        <div class="skill-tag"><i class="devicon-kubernetes-plain colored text-base mr-1"></i>Kubernetes</div>
+                        <div class="skill-tag"><span class="abbr-badge">CI/CD</span>CI/CD Pipelines</div>
+                        <div class="skill-tag"><i class="devicon-git-plain colored text-base mr-1"></i>Git</div>
                     </div>
                 </div>
                 <!-- Data & Security -->
@@ -367,12 +390,12 @@
                     </div>
                     <h3 class="text-lg font-bold mb-6">Data & Security</h3>
                     <div class="flex flex-wrap gap-2">
-                        <div class="skill-tag">Oracle</div>
-                        <div class="skill-tag">Sybase ASE</div>
-                        <div class="skill-tag">Kafka</div>
-                        <div class="skill-tag">Redis</div>
-                        <div class="skill-tag">Spring Security</div>
-                        <div class="skill-tag">OAuth2 / JWT</div>
+                        <div class="skill-tag"><i class="devicon-oracle-original colored text-base mr-1"></i>Oracle</div>
+                        <div class="skill-tag"><span class="abbr-badge">SYB</span>Sybase ASE</div>
+                        <div class="skill-tag"><i class="devicon-apachekafka-original text-base mr-1"></i>Kafka</div>
+                        <div class="skill-tag"><i class="devicon-redis-plain colored text-base mr-1"></i>Redis</div>
+                        <div class="skill-tag"><i class="devicon-spring-plain colored text-base mr-1"></i>Spring Security</div>
+                        <div class="skill-tag"><span class="abbr-badge">JWT</span>OAuth2 / JWT</div>
                     </div>
                 </div>
                 <!-- AI & Specialized Engineering -->
@@ -382,12 +405,12 @@
                     </div>
                     <h3 class="text-lg font-bold mb-6">AI & LLM Tools</h3>
                     <div class="flex flex-wrap gap-2">
-                        <div class="skill-tag">Claude Code</div>
-                        <div class="skill-tag">GitHub Copilot</div>
-                        <div class="skill-tag">Context Engineering</div>
-                        <div class="skill-tag">Agent Development</div>
-                        <div class="skill-tag">MCP</div>
-                        <div class="skill-tag">Skill Creation</div>
+                        <div class="skill-tag"><span class="abbr-badge">CC</span>Claude Code</div>
+                        <div class="skill-tag"><i class="devicon-github-original text-base mr-1"></i>GitHub Copilot</div>
+                        <div class="skill-tag"><span class="abbr-badge">CTX</span>Context Engineering</div>
+                        <div class="skill-tag"><span class="abbr-badge">AGT</span>Agent Development</div>
+                        <div class="skill-tag"><span class="abbr-badge">MCP</span>MCP</div>
+                        <div class="skill-tag"><span class="abbr-badge">SKL</span>Skill Creation</div>
                     </div>
                 </div>
                 <!-- Ops, Testing & Methodology -->
@@ -397,12 +420,12 @@
                     </div>
                     <h3 class="text-lg font-bold mb-6">Ops & Methods</h3>
                     <div class="flex flex-wrap gap-2">
-                        <div class="skill-tag">JUnit / Mockito</div>
-                        <div class="skill-tag">Playwright (E2E)</div>
-                        <div class="skill-tag">Log Analysis</div>
-                        <div class="skill-tag">Root Cause Analysis (RCA)</div>
-                        <div class="skill-tag">Production Support</div>
-                        <div class="skill-tag">Agile / Scrum</div>
+                        <div class="skill-tag"><i class="devicon-junit-plain colored text-base mr-1"></i>JUnit / Mockito</div>
+                        <div class="skill-tag"><i class="devicon-playwright-plain colored text-base mr-1"></i>Playwright (E2E)</div>
+                        <div class="skill-tag"><span class="abbr-badge">LOG</span>Log Analysis</div>
+                        <div class="skill-tag"><span class="abbr-badge">RCA</span>Root Cause Analysis (RCA)</div>
+                        <div class="skill-tag"><span class="abbr-badge">PRD</span>Production Support</div>
+                        <div class="skill-tag"><span class="abbr-badge">SCR</span>Agile / Scrum</div>
                     </div>
                 </div>
             </div>
